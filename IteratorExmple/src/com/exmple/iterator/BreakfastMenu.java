@@ -2,7 +2,7 @@ package com.exmple.iterator;
 
 import java.util.ArrayList;
 
-public class BreakfastMenu {
+public class BreakfastMenu implements Menu{
     private ArrayList<MenuItem> menu;
 
     public BreakfastMenu() {
@@ -20,6 +20,7 @@ public class BreakfastMenu {
         return menu;
     }
 
+    @Override
     public Iterator getIterator() {
         return new BraekfastMenuIterator(menu);
     }

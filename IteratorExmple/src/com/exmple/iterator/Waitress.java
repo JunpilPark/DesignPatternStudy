@@ -1,8 +1,8 @@
 package com.exmple.iterator;
 
 public class Waitress {
-    BreakfastMenu breakfastMenu = new BreakfastMenu();
-    AStoreLaunchMenu launchMenu = new AStoreLaunchMenu();
+    Menu breakfastMenu = new BreakfastMenu();
+    Menu launchMenu = new AStoreLaunchMenu();
 
     public void printMenu() {
         System.out.println("== 아침 메뉴 ==");

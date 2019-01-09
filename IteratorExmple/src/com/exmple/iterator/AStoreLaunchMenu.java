@@ -1,6 +1,6 @@
 package com.exmple.iterator;
 
-public class AStoreLaunchMenu {
+public class AStoreLaunchMenu implements Menu{
     private int MAX_MENU_COUNT = 5;
     private int lastMenuIdex = 0;
 
@@ -28,6 +28,7 @@ public class AStoreLaunchMenu {
         return menu;
     }
 
+    @Override
     public Iterator getIterator() {
         return new AStoreLaunchMenuIterator(menu);
     }
