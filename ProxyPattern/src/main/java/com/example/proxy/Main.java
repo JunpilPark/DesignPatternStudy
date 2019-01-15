@@ -26,7 +26,6 @@ public class Main
         System.out.println(nonOwnProxy.getHotOrNotRating());
     }
 
-
     PersonBean getOwnerProxy(PersonBean person)
     {
         return (PersonBean) Proxy.newProxyInstance(
