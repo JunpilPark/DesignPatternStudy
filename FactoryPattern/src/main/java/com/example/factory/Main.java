@@ -7,7 +7,7 @@ public class Main {
 
         Pizza pizza = nyPizzaStore.orderPizza("cheese");
         System.out.println(pizza.getName() + "피자를 주문 했습니다.");
-
+        System.out.println("===================");
         pizza = chicagoPizzaStore.orderPizza("pepperoni");
         System.out.println(pizza.getName() + "피자를 주문 했습니다.");
     }
